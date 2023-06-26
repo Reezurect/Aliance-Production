@@ -157,6 +157,7 @@ body {
   margin-bottom: 3.125rem;
   margin-left: .5rem;
   margin-top: .3125rem;
+  height: 100%;
 }
 .header-features {
   display: flex;
@@ -169,7 +170,7 @@ body {
 }
 .header-features-item {
   padding: 1.8125rem 3.5625rem;
-  min-height: 100%;
+  height: auto;
   width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
