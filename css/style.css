@@ -135,15 +135,15 @@ body {
 }
 .button {
   font-weight: 600;
-  font-size: .9375rem;
+  font-size: 1rem;
   line-height: 80%;
   color: #FFFFFF;
   background: #3A71D1; 
-  padding: 1.5625rem 3.75rem;
+  padding: 2.3rem 9rem;
   border: none;
   display: inline-block;
   cursor: pointer;
-  word-spacing: 5px;
+  word-spacing: 0;
 }
 .navbar-button {
   flex-shrink: 0;
@@ -179,7 +179,7 @@ body {
   max-width: 45rem;
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.49rem;
   line-height: 160%;
   margin-bottom: 3.125rem;
   margin-left: .5rem;
@@ -196,7 +196,7 @@ body {
   position: relative;
 }
 .header-features-item {
-  padding: 1.8125rem 3.5625rem;
+  padding: 3.813rem 3.563rem;
   height: auto;
   width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
@@ -215,13 +215,10 @@ align-items: center;
 justify-content: center;
 cursor: pointer;
 }
-.header-button {
-  padding: 1.625rem 4.375rem;
-}
 .header-features-text {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
+  font-weight: 468;
+  font-size: 1.5rem;
+  line-height: 120%;
   margin-bottom: 0;
   margin-top: 1.125rem;
 }
@@ -231,7 +228,7 @@ cursor: pointer;
 }
 .section-title {
   font-family: "Bebas Neue";
-  font-size: 3.75rem;
+  font-size: 3.3rem;
   line-height: 120%;
   color: #292D33;
   margin-inline: .625rem;
@@ -250,7 +247,7 @@ cursor: pointer;
 }
 .steps-num {
   font-family: "Bebas Neue";
-  font-size: 2.9375rem;
+  font-size: 5rem;
   line-height: 120%;
   color: #5C8EE6;
   display: flex;
@@ -261,11 +258,11 @@ cursor: pointer;
   height: 1px;
   background: #EBEBF0;
   width: 100%;
-  margin-left: 1.875rem;
+  margin: 3rem;
 }
 .steps-title {
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 2.1rem;
   line-height: 160%;
   color: #292D33;
   margin-top: 2.125rem;
@@ -275,27 +272,27 @@ cursor: pointer;
 }
 .steps-text {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 160%;
   color: #828A99;
-  margin-top: .625rem;
-  margin-bottom: 1.25rem;
+  margin-top: 0.625rem;
+  margin-bottom: 3.25rem;
 }
 .steps-link {
   display: flex;
   align-items: center;
   text-decoration: none;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.2rem;
   height: 160%;
   color: #5C8EE6;
 }
 .steps-link:before {
   content: "";
-  height: 1px;
+  height: 1.8px;
   background: #5C8EE6;
-  width: 40px;
-  margin-right: 1rem;
+  width: 44px;
+  margin-right: 2rem;
 }
 .steps-link:hover:before {
 width: 60px;
@@ -393,11 +390,11 @@ cursor: pointer;
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 7rem;
   }
   .navbar-button {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-right: 3.3rem;
   }
   .slider-buttons {
     display: flex;
@@ -414,7 +411,7 @@ cursor: pointer;
     font-size: 12px;
   }
   .container {
-    max-width: 60rem;
+    max-width: 36rem;
   }
   .header-nav {
     display: none;
@@ -423,20 +420,23 @@ cursor: pointer;
     flex-grow: 1;
     justify-content: center;
   }
+  .logo-svg {
+    min-width: 10rem;
+  }
   .mobile-menu-toggle {
     width: 80px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 2.7rem 2.3rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
     background-color: #333;
   }
   .mobile-menu-line {
-    height: 1px;
+    height: 3px;
     background-color: #fff;
     width: 100%;
     transition: transform 0.2s;
@@ -556,9 +556,9 @@ cursor: pointer;
     min-width: 90%;
   }
   .header-title {
-    font-size: 2rem;
+    font-size: 5rem;
   }
   .header-content {
-    padding-top: 3rem;
+    padding-top: 5rem;
   }
 }
