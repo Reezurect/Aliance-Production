@@ -79,20 +79,47 @@ body {
   height: 100%;
 }
 .header-nav {
-  flex-basis: 100%;
   display: flex;
+  align-items: center;
+  height: 100%;
+  flex-grow: 1;
   list-style: none;
   padding: 0;
   padding-left: 3.125rem;
   margin: 0;
 }
+.header-nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 .header-nav-item:not(:last-child) {
   margin-right: 4%;
 }
 .header-nav-link {
+  display: flex;
+  height: 100%;
+  align-items: center;
   text-decoration: none;
   font-size: 1rem;
   color: inherit;
+  position: relative;
+}
+.header-nav-link:after {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: -1px;
+  background-color: #5c8ee6;
+  transition: width 0.2s;
+  right: 0;
+  left: auto;
+}
+.header-nav-link:hover:after {
+  width: 100%;
+  right: auto;
+  left: 0;
 }
 .header-phone {
   flex-shrink: 0;
@@ -260,7 +287,7 @@ cursor: pointer;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
-  line-height: 160%;
+  height: 160%;
   color: #5C8EE6;
 }
 .steps-link:before {
@@ -268,6 +295,10 @@ cursor: pointer;
   height: 1px;
   background: #5C8EE6;
   width: 40px;
+  margin-right: 1rem;
+}
+.steps-link:hover:before {
+width: 60px;
 }
 .steps-buttons {
 display: none;
@@ -283,6 +314,48 @@ display: flex;
 align-items: center;
 justify-content: center;
 cursor: pointer;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  text-decoration: none;
+  flex-basis: 33%;
+  border: 1px solid #EBEBF0;
+  position: relative;
+  transition: border 0.2s;
+}
+.card:hover .card-title{
+  color: #5C8EE5;
+}
+.card:hover {
+  border-color: #5C8EE5;
+}
+.card-content {
+  padding: 2.5rem 3.125rem;
+}
+.card-title {
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 1.75rem;
+  color: #292D33;
+  margin-top: 0;
+  margin-bottom: .625rem;
+  transition: color 0.2s;
+}
+.card-text {
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+  margin-bottom: 24.625rem;
+}
+.card-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 90%;
 }
 @media (max-width: 1700px) {
   html {
@@ -331,6 +404,9 @@ cursor: pointer;
   }
   .steps-buttons{
     display: flex;
+  }
+  .crad {
+    flex-basis: 50%;
   }
 }
 @media (max-width: 992px) {
@@ -471,8 +547,11 @@ cursor: pointer;
   .header-content {
     padding-top: 3rem;
   }
+  .crad {
+    flex-basis: 100%;
+  }
 }
-@media (max-width: 568px) {
+@media (max-width: 576px) {
   .container {
     min-width: 90%;
   }
