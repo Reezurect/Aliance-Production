@@ -18,7 +18,7 @@ body {
 }
 .container {
   max-width: 90rem;
-  margin: .9375rem .9375rem .9375rem .9375rem;
+  margin: auto;
 }
 .navbar {
   display: flex;
@@ -338,7 +338,7 @@ cursor: pointer;
   font-size: 1.75rem;
   color: #292D33;
   margin-top: 0;
-  margin-bottom: .625rem;
+  margin-bottom: 0.625rem;
   transition: color 0.2s;
 }
 .card-text {
@@ -354,6 +354,53 @@ cursor: pointer;
   z-index: 0;
   width: 90%;
 }
+.trademark-cards {
+  display: flex;
+}
+.trademark-card {
+  flex-basis: 50%;
+  text-decoration: none;
+  border: 1px solid #EBEBF0;
+  transition: border 0.2s;
+  padding: 3.125rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: auto 2fr;
+  grid-column-gap: 3.125rem;
+  grid-template-areas: "logo title title" "logo text text";
+}
+.trademark-card-logo {
+  width: 100%;
+  fill: #828A99; 
+  grid-area: logo;
+}
+.trademark-card-title {
+  color: #292D33;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  grid-area: title;
+  margin: 0;
+}
+.trademark-card-text {
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828A99;
+  grid-area: text;
+  margin-top: 0.625rem;
+}
+.trademark-card:hover {
+  border-color: #5C8EE5;
+}
+.trademark-card:hover .trademark-card-logo {
+  fill: #5C8EE5;
+}
+.trademark-card:hover .trademark-card-title{
+  color: #5C8EE5;
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -404,6 +451,9 @@ cursor: pointer;
   }
   .crad {
     flex-basis: 50%;
+  }
+  .trademark-card {
+    grid-template-columns: auto auto;
   }
 }
 @media (max-width: 992px) {
@@ -475,6 +525,7 @@ cursor: pointer;
   }
   .mobile-menu-nav-item {
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .mobile-menu-link {
     text-decoration: none;
@@ -536,8 +587,11 @@ cursor: pointer;
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-9px);
   }
+  .trademark-cards {
+    flex-direction: column;
+  }
 }
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .container {
     min-width: 40rem;
   }
@@ -560,5 +614,8 @@ cursor: pointer;
   }
   .header-content {
     padding-top: 5rem;
+  }
+  .trademark-card {
+    grid-template-areas: "logo title" "text text";
   }
 }
