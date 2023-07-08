@@ -136,10 +136,10 @@ body {
 .button {
   font-weight: 600;
   font-size: 1rem;
-  line-height: 80%;
+  line-height: 5%;
   color: #FFFFFF;
   background: #3A71D1; 
-  padding: 2.3rem 9rem;
+  padding: 2.3rem 4rem;
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -278,23 +278,23 @@ cursor: pointer;
   margin-top: 0.625rem;
   margin-bottom: 3.25rem;
 }
-.steps-link {
+.button-link {
   display: flex;
   align-items: center;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.2rem;
-  height: 160%;
+  height: 15%;
   color: #5C8EE6;
 }
-.steps-link:before {
+.button-link:before {
   content: "";
   height: 1.8px;
   background: #5C8EE6;
   width: 44px;
   margin-right: 2rem;
 }
-.steps-link:hover:before {
+.button-link:hover:before {
 width: 60px;
 }
 .steps-buttons {
@@ -400,7 +400,70 @@ cursor: pointer;
 .trademark-card:hover .trademark-card-title{
   color: #5C8EE5;
 }
-
+.founder {
+  min-height: 41.25rem;
+  position: relative;
+}
+.founder-photo {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+}
+.founder-content {
+  max-width: 45rem;
+}
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.founder-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828A99;
+}
+.clients-wrapper {
+  display: flex;
+  gap: 3.125rem;
+}
+.clients-content {
+  flex-basis: 50%;
+}
+.clients-list {
+  list-style-type: none;
+  padding: 0;
+  columns: 2 auto;
+}
+.clients-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: #292D33;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+.clients-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 10;
+}
+.clinets-logo-item {
+  flex-basis: 33%;
+  border: 1px solid #EBEBF0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.clients-logo {
+  max-width: 100%;
+  width: 70px;
+  height: 70px;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -455,13 +518,19 @@ cursor: pointer;
   .trademark-card {
     grid-template-columns: auto auto;
   }
+  .founder-content {
+    max-width: 35rem;
+  }
+  .clients-content {
+    flex-basis: 60%;
+  }
 }
 @media (max-width: 992px) {
   html {
     font-size: 12px;
   }
   .container {
-    max-width: 36rem;
+    min-width: 36rem;
   }
   .header-nav {
     display: none;
@@ -590,10 +659,13 @@ cursor: pointer;
   .trademark-cards {
     flex-direction: column;
   }
+  .clients-wrapper {
+    flex-direction: column;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .container {
-    min-width: 40rem;
+    max-width: 40rem;
   }
   .header-title {
     font-size: 4rem;
@@ -603,6 +675,11 @@ cursor: pointer;
   }
   .crad {
     flex-basis: 100%;
+  }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
   }
 }
 @media (max-width: 576px) {
@@ -617,5 +694,11 @@ cursor: pointer;
   }
   .trademark-card {
     grid-template-areas: "logo title" "text text";
+  }
+  .clients-list {
+    columns: 1;
+  }
+  .clinets-logo-item {
+    flex-basis: 50%;
   }
 }
