@@ -629,6 +629,12 @@ margin: 0;
   .header-image {
     background-position: center;
   }
+  .cta-image {
+    display: none;
+  }
+  .cta-form-wrapper {
+    justify-content: center;
+  }
 }
 @media (max-width: 1460px) {
   html {
@@ -846,6 +852,15 @@ margin: 0;
     width: 100%;
     margin-bottom: 3.125rem;
   }
+  .input-group-wrapper {
+    flex-direction: column;
+  }
+  .cta-form-button {
+    width: 100%;
+  }
+  .cta-form-footer {
+    flex-direction: column;
+  }
 }
 @media (max-width: 576px) {
   .container {
@@ -866,4 +881,5 @@ margin: 0;
   .clinets-logo-item {
     flex-basis: 50%;
   }
+  
 }
