@@ -621,7 +621,113 @@ margin: 0;
   font-weight: 400;
   line-height: 160%;
   margin: 0;
-}    
+}
+
+.footer-top {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo {
+  width: 12.5rem;
+  height: 3.75rem;
+}
+.footer-info {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  color: #292D33;
+  gap: 10px;
+}
+.footer-info-address, 
+.footer-info-email {
+  font-style: inherit;
+  text-decoration: inherit;
+  color: inherit;
+}
+.footer-phone {
+  color: #292D33;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+.footer-social-link {
+  text-decoration: none;
+}
+.footer-seporator {
+  color: #EBEBF0;
+  background-color: #EBEBF0;
+}
+.footer-bottom {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.footer-menu-title {
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.footer-menu-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style-type: none;
+}
+.footer-menu-column-2 {
+  columns: 20rem auto;
+  min-width: 50rem;
+}
+.footer-menu-link {
+  text-decoration: none;
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 0.9375rem;
+  display: block;
+}
+.footer-menu-link-bold {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  color: #292D33;
+  margin-bottom: 1.875rem;
+}
+.footer-bottom {
+  display: flex;
+}
+.footer-menu-wrapper:last-child {
+  margin-left: 5rem;
+}
+.footer-wrapper {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #828A99;
+  font-style: normal;
+}
+.footer-wrapper,
+.footer-legal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+.footer-copyright,
+.footer-policy {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: inherit;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
