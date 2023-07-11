@@ -139,7 +139,7 @@ body {
   line-height: 5%;
   color: #FFFFFF;
   background: #3A71D1; 
-  padding: 2.3rem 4rem;
+  padding: 2.3rem 6rem;
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -559,6 +559,10 @@ margin: 0;
   display: flex;
   gap: 1.875rem;
 }
+.input-group-vertical {
+  display: flex;
+  flex-direction: column;
+}
 .input-group {
   position: relative;
   height: 4.125rem;
@@ -573,7 +577,7 @@ margin: 0;
   left: 0;
   padding: 1.25rem 1.875rem;
   border: 1px solid #E4E4EB;
-  background-color: transparent;
+  background-color: inherit;
 }
 .input-group-label {
   position: absolute;
@@ -589,7 +593,8 @@ margin: 0;
   border: 1px solid #5c8ee6;
   outline: 0;
 }
-.input:focus ~ .input-group-label, .input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
+.input:focus ~ .input-group-label, 
+.input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
   top: -0.5rem;
   left: 1.25rem;
   font-size: 0.625rem;
@@ -614,7 +619,7 @@ margin: 0;
   flex-shrink: 0;
 }
 .notify-text {
-  min-width: 23.75rem;
+  min-width: 22.75rem;
   color: #828A99;
   font-size: 0.75rem;
   font-style: normal;
@@ -727,6 +732,72 @@ margin: 0;
   font-weight: 400;
   line-height: 160%;
   color: inherit;
+}
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 45, 51, 0.5);
+  z-index: 10;
+  display: flex;
+}
+.modal.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+.modal-dialog {
+  background-color: #fff;
+  margin: auto;
+  max-width: 460px;
+  padding: 40px 50px;
+  position: relative;
+}
+.modal-close {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #EBEBF0;
+}
+.modal-title {
+  font-family: "Bebas Neue";
+  color: #292D33;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+.modal-text {
+  color: #828A99;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 1.875rem;
+}
+.modal-input-group {
+  background-color: #fff;
+}
+.modal-form-footer {
+  margin-top: 1.875rem;
+}
+.modal-form-button {
+  display: flex;
+  width: 100%;
+  margin-bottom: 24px;
 }
 @media (max-width: 1700px) {
   html {
