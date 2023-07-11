@@ -751,12 +751,19 @@ margin: 0;
   visibility: visible;
   opacity: 1;
 }
+.modal.is-open .modal-dialog {
+  transform: translateY(0);
+  opacity: 1;
+}
 .modal-dialog {
   background-color: #fff;
   margin: auto;
   max-width: 460px;
   padding: 40px 50px;
   position: relative;
+  transform: translateY(-10%);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
 }
 .modal-close {
   display: block;
