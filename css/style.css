@@ -939,6 +939,20 @@ margin: 0;
   .clients-wrapper {
     flex-direction: column;
   }
+  .footer-top {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .footer-menu-column-2 {
+    min-width: 40rem;
+  }
+  .footer-menu-wrapper:last-child {
+    margin-left: -1rem;
+  }
 }
 @media (max-width: 920px) {
   .container {
