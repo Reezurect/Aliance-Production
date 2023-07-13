@@ -36,13 +36,23 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292D33;
+}
+.logo-dark {
+  display: none;
+}
+.navbar-light 
+.logo-light {
+  display: none;
+}
+.navbar-light
+.logo-dark {
+  display: block;
+}
+.navbar-scroll {
   height: 4.5rem;
 }
 .phone-icon {
   fill: #5C8EE6;
-}
-.logo {
-  display: none;
 }
 .logo-svg {
   width: 9rem;
