@@ -52,7 +52,7 @@ body {
   fill: #292D33;
 }
 .header {
-  padding-top: 5.875rem;
+  padding-top: 4.875rem;
 }
 .header-image {
   background-image: url('../img/header-bg.jpeg');
@@ -62,7 +62,7 @@ body {
   position: relative;
 }
 .header-image::before {
-  content: "";
+  content: " ";
   position: absolute;
   background: rgba(41, 45, 51, 0.75);
   top: 0;
