@@ -548,7 +548,6 @@ margin: 0;
 ul.breadcrumb {
   padding: 10px 16px;
   list-style: none;
-  background-color: #eee;
 }
 ul.breadcrumb li {
   display: inline;
@@ -576,7 +575,7 @@ ul.breadcrumb li a:hover {
 .cta-image {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -60px;
   max-width: 720px;
   width: 50%;
 }
