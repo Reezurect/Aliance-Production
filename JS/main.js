@@ -148,6 +148,21 @@ validation
     },
   ])
   .onSuccess((event) => {
-    console.log(event.target.getAttribute("method"));
+    const thisform = event.target; //наша форма
+    const formData = new FormData(thisForm); //данные из формы
+    const ajaxSend = (FormData) => {
+      fetch(thisForm.getAttribute("action"), {
+        method: thisForm.getAttribute("method"),
+        body: formData,
+      }).then((response) => {
+        if (response.ok) {
+          thisForm.reset();
+          alert("форма оптправлена!");
+        } else {
+          alert("Ошибка. Текст ошибки: ".response.statusText);
+        }
+      });
+    };
+    ajaxSend(formData);
   });
 }); 
