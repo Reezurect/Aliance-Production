@@ -642,6 +642,20 @@ ul.breadcrumb li a:hover {
   background-color: inherit;
   padding: 0 10px;
 }
+.input.is-invalid {
+  border: 1px solid red;
+}
+.just-validate-error-label {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: inherit;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  display: inline-block;
+}
 .cta-form-footer {
   gap: 1.875rem;
   display: flex;
