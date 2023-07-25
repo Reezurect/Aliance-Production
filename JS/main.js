@@ -149,7 +149,7 @@ validation
   ])
   .onSuccess((event) => {
     const thisform = event.target; //наша форма
-    const formData = new formData(thisForm); //данные из формы
+    const formData = new FormData(thisForm); //данные из формы
     const ajaxSend = (FormData) => {
       fetch(thisForm.getAttribute("action"), {
         method: thisForm.getAttribute("method"),
