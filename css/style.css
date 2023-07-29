@@ -538,12 +538,12 @@ margin: 0;
   margin-top: 1.875rem;
   justify-content: space-between;
 }
+
 .bg-grey {
-  background: #F0F2F5;
+  background: #828A99;
 }
-.header-bg-grey {
-  background-color: #F0F2F5;
-  padding-bottom: 1.25rem;
+.page-header-bg-grey {
+  background: #828A99;
 }
 ul.breadcrumb {
   padding: 10px 16px;
