@@ -78,7 +78,7 @@
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
       </a>
-    <a href="./" class="header-logo"> 
+    <a href="#" class="header-logo"> 
       <svg class="logo-svg logo-light">
         <use href="img/sprite.svg#logo-light"></use>
       </svg>
@@ -387,15 +387,69 @@
       </div>
       <!-- /.clients-content -->
       <div class="clients-logo-list">
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
-        <a href="#" class="clinets-logo-item"><img src="img/client.png" alt="" class="clients-logo"></a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
+        <a href="#" class="clinets-logo-item">
+          <picture class="clients-logo">
+             <source type="image/webp" srcset="img/client.webp">
+             <source type="image/jpeg" srcset="img/client.png">
+             <img src="img/client.png" alt="clients">
+          </picture>
+        </a>
       </div>
       <!-- /.clients-logo -->
     </div>

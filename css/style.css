@@ -8,6 +8,7 @@ html {
   font-family: "Bebas Neue";
   src: url('../fonts/BebasNeueBook.woff') format('woff');
   font-weight: normal;
+  font-display: swap;
   font-style: normal;
   }
 body {
@@ -540,10 +541,13 @@ margin: 0;
 }
 
 .bg-grey {
-  background: #828A99;
+  background: #F0F2F5;
 }
 .page-header-bg-grey {
-  background: #828A99;
+  background: #F0F2F5;
+}
+.header-bg-grey {
+  background: #F0F2F5;
 }
 ul.breadcrumb {
   padding: 10px 16px;
