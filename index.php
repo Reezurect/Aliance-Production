@@ -298,7 +298,11 @@
  <?php $block_title="Собственные торговые марки"; 
  include_once('./template-parts/trademarks-block.php')?>
  <section class="section founder">
-  <img src="img/founder.jpg" alt="founder" class="founder-photo">
+ <picture class="founder-photo">
+             <source type="image/webp" srcset="img/founder.webp">
+             <source type="image/jpeg" srcset="img/founder.jpg">
+             <img src="img/founder.jpg" alt="founder">
+          </picture>
   <div class="container">
    <div class="founder-content-wrapper">
       <div class="founder-content">
@@ -391,63 +395,63 @@
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
         <a href="#" class="clinets-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
         <a href="#" class="clinets-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
         <a href="#" class="clinets-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
         <a href="#" class="clinets-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
         <a href="#" class="clinets-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
         <a href="#" class="clinets-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
         <a href="#" class="clinets-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
         <a href="#" class="clinets-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
-             <img src="img/client.png" alt="clients">
+             <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
       </div>
@@ -466,7 +470,8 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-  <a href="#" class="swiper-slide blog-card"><img src="img/blog/blog-post.jpg" alt="" class="blog-card-image">
+  <a href="#" class="swiper-slide blog-card">
+    <img src="img/blog/blog-post.jpg" alt="" class="blog-card-image">
     <h3 class="blog-card-titel">Современная методология разработки одухотворила всех причастных</h3>
     <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...
     </p>
