@@ -1,4 +1,5 @@
-<section class="cta">
+<? if ($_SERVER['REQUEST_URI'] !== '/Politics.php') { ?> 
+<? '<section class="cta">
   <div class="bg-grey section-cta">
   <picture>
              <source type="image/webp" srcset="img/cta.webp">
@@ -36,7 +37,9 @@
     </div>
     <!--/.cta-form-wrapper-->
   </div>
-</section>
+</section>';
+}; ?>
+
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
