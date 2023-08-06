@@ -102,7 +102,7 @@
       <svg class="button-icon" width="24" height="24">
         <use href="img/sprite.svg#phone"></use>
       </svg>
-      <span class="buttone-text">Получить консультацию</span>
+      <span class="button-text">Получить консультацию</span>
     </button>
   </nav>
   <!-- /.navbar -->
@@ -334,63 +334,63 @@
       </div>
       <!-- /.clients-content -->
       <div class="clients-logo-list">
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
              <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
              <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
              <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
              <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
              <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
              <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
              <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">
              <img src="img/client.png" alt="clients" width="70" height="70">
           </picture>
         </a>
-        <a href="#" class="clinets-logo-item">
+        <a href="#" class="clients-logo-item">
           <picture class="clients-logo">
              <source type="image/webp" srcset="img/client.webp">
              <source type="image/jpeg" srcset="img/client.png">

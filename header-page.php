@@ -104,7 +104,7 @@
         <svg class="button-icon" width="24" height="24">
           <use href="img/sprite.svg#phone"></use>
         </svg>
-        <span class="buttone-text">Получить консультацию</span>
+        <span class="button-text">Получить консультацию</span>
       </button>
     </nav>
     <!-- /.navbar -->

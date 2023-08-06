@@ -4,7 +4,7 @@
 * {
   box-sizing: border-box;
 }
-html {
+.html {
   font-style: 16px;
 }
 @font-face {
@@ -14,7 +14,7 @@ html {
   font-display: swap;
   font-style: normal;
   }
-body {
+.body {
   font-family: 'Noto Sans';
 }
 .mobile-menu {
@@ -477,7 +477,7 @@ cursor: pointer;
   flex-wrap: wrap;
   flex-shrink: 10;
 }
-.clinets-logo-item {
+.clients-logo-item {
   flex-basis: 33%;
   border: 1px solid #EBEBF0;
   display: flex;
@@ -487,7 +487,7 @@ cursor: pointer;
   filter: grayscale(100%);
   transition: filter 0,2;
 }
-.clinets-logo-item:hover {
+.clients-logo-item:hover {
   filter: grayscale(0%);
 }
 .clients-logo {
@@ -877,8 +877,8 @@ ul.breadcrumb li a:hover {
   line-height: 160%;
   font-size: 16px;
   color: #292D33;
-  padding: 240px 100px 240px 150px;
   text-align: left;
+  padding: 0%;
 }
 @media (max-width: 1700px) {
   html {
@@ -941,7 +941,7 @@ ul.breadcrumb li a:hover {
   .steps-buttons{
     display: flex;
   }
-  .crad {
+  .card {
     flex-basis: 50%;
   }
   .trademark-card {
@@ -973,7 +973,7 @@ ul.breadcrumb li a:hover {
   }
   .mobile-menu-toggle {
     width: 80px;
-    height: 100%;
+    height: 115%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -984,7 +984,7 @@ ul.breadcrumb li a:hover {
     background-color: #333;
   }
   .mobile-menu-line {
-    height: 3px;
+    height: 2px;
     background-color: #fff;
     width: 100%;
     transition: transform 0.2s;
@@ -992,7 +992,7 @@ ul.breadcrumb li a:hover {
   .mobile-menu-line:nth-child(2) {
     width: 80%;
   }
-  .navbar-button .buttone-text {
+  .navbar-button .button-text {
     display: none;
   }
   .navbar-button .button-icon {
@@ -1116,7 +1116,7 @@ ul.breadcrumb li a:hover {
   .header-content {
     padding-top: 3rem;
   }
-  .crad {
+  .card {
     flex-basis: 100%;
   }
   .founder-photo {
@@ -1150,7 +1150,7 @@ ul.breadcrumb li a:hover {
   .clients-list {
     columns: 1;
   }
-  .clinets-logo-item {
+  .clients-logo-item {
     flex-basis: 50%;
   }
   
