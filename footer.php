@@ -135,7 +135,7 @@
     <div class="footer-wrapper">
       <div class="footer-legal">
         <p class="footer-copyright"> &copy; <?php echo date('d.m.Y') ?> «Aliance Production». Все права защищены.</p>
-        <a href="#" class="footer-policy">Политики конфиденциальности</a>
+        <a href="./Politics.php" class="footer-policy">Политики конфиденциальности</a>
       </div>
       <!-- /.footer-legal -->
       <div class="footer-author">

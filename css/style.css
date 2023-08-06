@@ -871,6 +871,15 @@ ul.breadcrumb li a:hover {
   width: 100%;
   margin-bottom: 24px;
 }
+.politics-text {
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 160%;
+  font-size: 16px;
+  color: #292D33;
+  padding: 240px 100px 240px 150px;
+  text-align: left;
+}
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
