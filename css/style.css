@@ -218,6 +218,21 @@
   color: #fff;
   position: relative;
 }
+.header-features-about {
+  display: flex;
+  min-height: 10.5rem;
+  padding: 0;
+  margin-top: 6.375rem;
+  list-style: none;
+  color: #292D33;
+  position: relative;
+}
+.header-features-item-about {
+  padding: 3.813rem 3.563rem;
+  height: auto;
+  width: 18rem;
+  border: 3px solid rgba(236, 236, 241, 0.2);
+}
 .header-features-item {
   padding: 3.813rem 3.563rem;
   height: auto;
@@ -237,6 +252,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 cursor: pointer;
+}
+.header-features-text-about {
+  color: #292D33;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
 }
 .header-features-text {
   font-weight: 468;
