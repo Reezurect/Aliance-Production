@@ -567,6 +567,11 @@ margin: 0;
   margin-top: 1.875rem;
   justify-content: space-between;
 }
+.blog-slider-footer-about {
+  align-items: center;
+  margin-top: 1.875rem;
+  justify-content: space-between;
+}
 
 .bg-grey {
   background: #F0F2F5;
