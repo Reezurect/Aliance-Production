@@ -1,5 +1,5 @@
 <? if ($_SERVER['REQUEST_URI'] !== '/Politics.php') { ?> 
-<? '<section class="cta">
+<? echo '<section class="cta">
   <div class="bg-grey section-cta">
   <picture>
              <source type="image/webp" srcset="img/cta.webp">
@@ -83,7 +83,7 @@
         <h2 class="footer-menu-title">Контрактное производство</h2>
           <ul class="footer-menu-list footer-menu-column-2">
             <li class="footer-menu-item">
-              <a href="#" class="footer-menu-link">Автомобильная химия</a>
+              <a href="./avto-him.php" class="footer-menu-link">Автомобильная химия</a>
             </li>
             <li class="footer-menu-item">
               <a href="#" class="footer-menu-link">Бытовая химия</a>
