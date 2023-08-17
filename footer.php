@@ -43,9 +43,10 @@
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
+    <a href="./index.php" class="footer-logo">
       <svg class="logo-svg footer-logo">
         <use href="img/sprite.svg#logo"></use>
-      </svg>
+      </svg></a>
       <a href="tel:+79996861014" class="footer-phone">+7 (999) 686-10-14</a>
       <div class="footer-info">
         <svg class="phone-icon" width="24" height="24">
