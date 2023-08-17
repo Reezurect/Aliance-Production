@@ -76,39 +76,51 @@
         <ul class="clients-list">
           <li class="clients-list-item">
             <svg width="30" height="30" class="clients-list-icon">
+          <use href="img/sprite.svg#him"></use>
+        </svg>
+        Полное описание товаров
+      </li>
+          <li class="clients-list-item">
+            <svg width="30" height="30" class="clients-list-icon">
           <use href="img/sprite.svg#car"></use>
         </svg>
-        Автомобильная химия
+        Актуальные цены
       </li>
           <li class="clients-list-item">
             <svg width="30" height="30" class="clients-list-icon">
-          <use href="img/sprite.svg#home"></use>
+          <use href="img/sprite.svg#him"></use>
         </svg>
-        Бытовая химия
+        Полное описание товаров
       </li>
           <li class="clients-list-item">
             <svg width="30" height="30" class="clients-list-icon">
-          <use href="img/sprite.svg#dis"></use>
+          <use href="img/sprite.svg#car"></use>
         </svg>
-        Дезинфицирующие средства
-      </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="clients-list-icon">
-          <use href="img/sprite.svg#cosmetic"></use>
-        </svg>
-        Косметическая продукция
-      </li>
-          <li class="clients-list-item">
-            <svg width="30" height="30" class="clients-list-icon">
-          <use href="img/sprite.svg#aerozol"></use>
-        </svg>
-        Пищевые аэрозоли
+        Актуальные цены
       </li>
           <li class="clients-list-item">
             <svg width="30" height="30" class="clients-list-icon">
           <use href="img/sprite.svg#brush"></use>
         </svg>
-        Краски аэрозольные
+        Лаки и краски
+      </li>
+          <li class="clients-list-item">
+            <svg width="30" height="30" class="clients-list-icon">
+          <use href="img/sprite.svg#him"></use>
+        </svg>
+        Химические производства
+      </li>
+      <li class="clients-list-item">
+            <svg width="30" height="30" class="clients-list-icon">
+          <use href="img/sprite.svg#brush"></use>
+        </svg>
+        Лаки и краски
+      </li>
+      <li class="clients-list-item">
+            <svg width="30" height="30" class="clients-list-icon">
+          <use href="img/sprite.svg#him"></use>
+        </svg>
+        Химические производства
       </li>
         </ul>
       </div>
